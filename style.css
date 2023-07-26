@@ -1,0 +1,412 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+    color:white;
+}
+
+.welcomeContainer{
+height:44rem;
+width:100%;
+overflow: hidden;
+background-color: rgb(75, 75, 75);
+}
+
+.backgroundImg {
+    height:50rem;
+    width:150%;
+    position: relative;
+    left:-20rem;
+    filter:brightness(40%);
+    background-color: red;
+}
+
+.imageContainer{
+    background-image:linear-gradient(to top, rgba(0,0,0,0.8) 0, rgba(0,0,0,0) 60%, rgba(0,0,0,0.8) 100%);
+}
+
+.divider {
+    width:100%;
+    height:0.5rem;
+    background-color: rgb(86, 83, 83);
+}
+
+.navBar 
+{   display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top:0rem;
+    left:0rem;
+    background-color:none;
+    z-index:1;
+    height: 5rem;
+    width:100%;
+}
+
+#select
+{
+    width: 8rem;
+    height:1.9rem;
+    background-color: rgb(33, 31, 31);
+    color:white;
+    border:none;
+    outline:none;
+    font-weight:400;
+    font-size:16px;
+}
+
+
+.langDiv{
+    width:10rem;
+    height: 2rem;
+    background-color: rgb(33, 31, 31);
+    border:0.01rem solid rgb(211, 210, 210);
+    text-align: center;
+    color:white;
+    border-radius: 0.3rem;
+    
+}
+
+.langDiv:has(#select:focus) { 
+    outline: 2px solid white;
+}
+
+.signButton {
+    height:2rem;
+    width:5rem;
+    background-color: red;
+    color:white;
+    border-radius: 0.3rem;
+    border:none;
+    margin-left:1rem;
+    font-weight: 700;
+    
+}
+
+.signInContainer {
+    display: flex;
+    align-items: center;
+    margin-right:10rem;
+}
+
+.logoContainer{
+   display: flex;
+   justify-content: center;
+}
+
+.logoImage {
+    margin-left:20rem;
+    height:100px;
+    width:200px;
+    margin-left:10rem;
+    margin-top:-0.5rem;
+}
+
+.fa-solid
+{
+    margin-left:1px;
+}
+
+.inputContainer {
+    position: absolute;
+    top:18rem;
+    left:18rem;
+    background-color: none;
+    width:63%;
+    color:white;
+    text-align:center;
+    font-weight: 100;
+
+}
+
+.mainHeader{
+    font-size:3rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.infoHeader{
+    font-size:1.4rem;
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+    line-height: 2rem;
+    margin-bottom: 0;
+}
+
+.restartContainer {
+    font-size:1.2rem;
+    margin-bottom:1rem;
+    font-weight: 400;
+    
+}
+
+.emailContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.input{
+    width:42%;
+    height: 3.5rem;
+    background-color: transparent;
+    border-radius:0.2rem;
+    border:0.01rem solid gray;
+    outline:none;
+    color:white;
+    padding-left:1rem;
+}
+
+.input::-webkit-input-placeholder{
+    color:rgb(215, 212, 212);
+    font-size:1rem;
+}
+
+.clickButton {
+    width:22%;
+    height:3.6rem;
+    margin-left:0.5rem;
+    background-color: rgb(230, 4, 4);
+    border-radius: 0.2rem;
+    color:white;
+    font-size:1.5rem;
+    font-weight: 600;
+    border:none;
+}
+
+.input:focus::placeholder {
+font-size: 0.7rem;
+position:absolute;
+bottom:30px;
+}
+
+.blackContainer {
+    height:35rem;
+    background-color: black;
+}
+
+.enjoyContainer {
+        position: absolute;
+        top:57rem;
+        left:10rem;
+        background-color: none;
+        width:63%;
+        color:white;
+        text-align:left;
+    
+}
+
+.downloadContainer{
+    position: absolute;
+    top:91rem;
+    left:45rem;
+    background-color: none;
+    width:63%;
+    color:white;
+    text-align:left;
+    
+}
+
+
+.downloadContainer
+{
+    width:38%;
+}
+
+.paddingHeader{
+    padding-right:1rem;
+}
+
+.watchContainer {
+        position: absolute;
+        top:128rem;
+        left:10rem;
+        background-color: none;
+        width:35%;
+        color:white;
+        text-align:left;
+}
+
+.kidsContainer{
+    position: absolute;
+    top:162.5rem;
+    left:45rem;
+    background-color: none;
+    width:38%;
+    color:white;
+    text-align:left;
+
+    
+}
+
+.nextPaddingHeader {
+    padding-right: 1rem;
+}
+
+.kidsImage {
+    position:relative;
+    top:5rem;
+    left:10rem;
+    width:35rem;
+}
+
+.tvIpadImage{
+       position:relative;
+       top:6rem;
+       left:45rem;
+       width:35rem;
+}
+
+.phoneImage{
+    width:30rem;
+    position: relative;
+    top:5rem;
+    left:12rem;
+}
+
+.tvImage
+{
+    width:35rem;
+    position: relative;
+    top:4rem;
+    left:45rem;
+    width:35rem;
+}
+
+.questionsContainer {
+
+    width:100%;
+    background-color: black;
+    color:white;
+}
+
+.questionsBox {
+color:white;
+text-align: center;
+padding-bottom:4rem;
+}
+
+.questionLines {
+    width:100%;
+    height:5.5rem;
+    background-color:rgb(40, 37, 37);
+    margin:1rem 0 -0.5rem 0;
+    font-size:1.5rem;
+    text-align:left;
+    padding:2rem 2rem 0 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    border-bottom: 2px solid black;
+}
+
+.questionLines:hover{
+    background-color: rgb(66, 63, 63);
+
+}
+
+.fa-plus{
+    font-size:2rem;
+}
+
+
+.questionWrapper {
+    width:77%;
+    margin:0 auto;
+  
+}
+
+.open{
+    background-color: rgb(40, 37, 37);
+    height: 20rem;
+}
+
+p 
+{padding:2rem 2rem 3rem 2rem;
+font-size: 1.5rem;
+line-height: 2rem;
+text-align: left;
+}
+
+
+.footerSignIn {
+    color:white;
+    background-color: black;
+    text-align: center;
+    height:11rem;
+    width:100%;
+}
+
+
+.footerEmail{
+   background-color: black;
+   color:white;
+   display: flex;
+   justify-content: center;
+}
+
+
+.footerh1{
+    font-weight:400;
+    padding-bottom:2rem;
+}
+
+.footerInput{
+width:calc(63% * 44 / 100);
+background-color:rgb(19, 19, 19);}
+
+.footerButton {
+    width: calc(63% * 22 / 100);
+}
+
+.footerContainer{
+    height:28.5rem;
+    background-color: black;
+}
+.contactContainer{
+    height:8rem;
+}
+.contacth2 {
+    text-decoration: underline;
+    color:rgb(153, 148, 148);
+    font-size: 400;
+    font-size:1rem;
+    padding:4rem 0 0 11rem;
+}
+
+.questionsDiv {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width:67%;
+        margin-left:5rem;
+        margin-bottom:2rem;
+}
+
+.questions{
+    font-size:0.9rem;
+    font-weight: 400;
+    color:rgb(153, 148, 148);
+    text-decoration: underline;
+    line-height: 2rem;
+}
+
+.endLangDiv{
+    width:10rem;
+    height: 2rem;
+    background-color: rgb(33, 31, 31);
+    border:0.01rem solid rgb(211, 210, 210);
+    text-align: center;
+    color:white;
+    border-radius: 0.3rem;
+    margin-left:11rem;
+    margin-bottom:1rem;
+}
+
+.countryName {
+    font-size:1rem;
+    font-weight: 400;
+    color:rgb(153, 148, 148);
+    line-height: 2rem;
+    margin-left:11rem;
+}
